@@ -54,17 +54,10 @@ Section{
     min-height: 70vh;
 }
 
-
-
-
-
-
-
     .main-block{
     flex-direction: column;
     
     height: 100vh;
-    
     }
 
 .main-conten{
@@ -75,6 +68,7 @@ Section{
     width: 900px;
     height: 250px;
     padding-left: 30px;
+    margin-left: 140px;
 }
     
 .main-title{
@@ -152,6 +146,27 @@ Section{
 }
 
 
+@keyframes cloud-move {
+    frome {transform: translatex(0px);}
+    to {transform: translatex(70px);}
+}
+
+
+.cloud{
+    background: url(cloud.png);
+    background-repeat: no-repeat;
+    width: 2000px;
+    height: 408px;
+    transform: rotate (-15deg);
+    position: absolute;
+    bottom: 300px;
+    left: 30px;
+    animation-name:cloud-move ;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
 
 
 
@@ -169,13 +184,15 @@ Section{
 
 
 .about-content{
-    width: 35%;
-    height: 270px;
+    width: 45%;
+    height: 350px;
     background-color:#792AFF ;
-    padding-left: 40px;
+    padding-left: 80px;
     padding-top: 40px;
     position: relative;
     display: flex;
+    margin-left: 25%;
+    margin-top: 4%;
 }
 
 
@@ -190,14 +207,55 @@ Section{
 
 
 .about-card{
-    background-image: url(form1.png);
+    background-image: url(form2.png);
     background-repeat: no-repeat;
     width: 376px;
-    height: 346;
+    height: 346px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     position: relative;
     
+}
+
+
+.about-card p{
+    color: #000;
+    font-size: 17px;
+    align-self: start;
+    padding-left: 20px;
+    line-height: 25px;
+    font-family: 'Comfortaa';
+}
+
+.about-card img{
+    padding-bottom: 20px;
+}
+
+
+
+.skils-card {
+    background-image: url(form3.png);
+    background-repeat: no-repeat;
+    background-size: center;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    margin: 20px; 
+    padding-left: 10px; 
+}
+
+
+.skills-card p{
+    color:#000;
+    font-size: 18px;
+    margin-top: 80px;
+    margin-bottom: 30px; 
+    display: flex;
+    text-align: center;
+    max-width: 80px;
+    font-family: 'Comfortaa';
 }
