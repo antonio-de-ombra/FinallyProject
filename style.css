@@ -235,27 +235,96 @@ Section{
 
 
 
-.skils-card {
+.skills-card{
     background-image: url(form3.png);
     background-repeat: no-repeat;
-    background-size: center;
+    background-size: contain;
     height: 450px;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 100px;
-    margin: 20px; 
-    padding-left: 10px; 
+    margin: 20px;
+    padding-left: 10px;
 }
 
 
 .skills-card p{
-    color:#000;
+    color: #000;
     font-size: 18px;
     margin-top: 80px;
-    margin-bottom: 30px; 
-    display: flex;
+    margin-bottom: 30px;
     text-align: center;
-    max-width: 80px;
+    max-width: 500px;
     font-family: 'Comfortaa';
+}
+
+
+.moving-planet2{
+    background: url(moving-planet2.png);
+    background-repeat: no-repeat;
+    width: 208px;
+    height: 200px;
+    position: absolute;
+    bottom: 70px;
+    left: 0;
+    animation-name:planet-move ;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.works-block img{
+    margin: 0 20px;
+    width: 27%;
+    box-shadow: 
+      7px 7px 0 #000000;
+}
+
+.comments-block{
+    justify-content: space-evenly;
+    max-width: 1150px;
+    margin: auto;
+}
+
+.comment-card{
+    background-image: url(card.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 300px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 200px;
+}
+
+.comment-card h3{
+    font-size: 18p;
+    font-family: 'Comfortaa';
+    padding: 10px;
+}
+
+.comment-card p{
+    font-family: 'Comfortaa';
+    font-size: 14px;
+    padding:10px 20px;
+    text-align: center;
+}
+
+.comment{
+    background-image:url(comment.png) ;
+    background-size:contain ;
+    background-repeat: no-repeat;
+    background-position: left;
+    width: 327px;
+    height: 961px;
+    margin: auto;
+}
+
+.comment p{
+    font-family: 'Comfortaa';
+    font-size: 20px;
+    max-width: 250px;
 }
