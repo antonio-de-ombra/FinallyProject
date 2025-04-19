@@ -155,11 +155,11 @@ Section{
 .cloud{
     background: url(cloud.png);
     background-repeat: no-repeat;
-    width: 2000px;
+    width: 400px;
     height: 408px;
     transform: rotate (-15deg);
     position: absolute;
-    bottom: 300px;
+    bottom: 20px;
     left: 30px;
     animation-name:cloud-move ;
     animation-duration: 2s;
@@ -297,19 +297,19 @@ Section{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 200px;
+    max-width: 400px;
 }
 
 .comment-card h3{
-    font-size: 18p;
+    font-size: 18px;
     font-family: 'Comfortaa';
-    padding: 10px;
+    
 }
 
 .comment-card p{
     font-family: 'Comfortaa';
-    font-size: 14px;
-    padding:10px 20px;
+    font-size: 10px;
+    padding:9px 20px;
     text-align: center;
 }
 
@@ -318,9 +318,10 @@ Section{
     background-size:contain ;
     background-repeat: no-repeat;
     background-position: left;
-    width: 327px;
-    height: 961px;
+    width: 320px;
+    height: 461px;
     margin: auto;
+    padding: 0px 0px;
 }
 
 .comment p{
