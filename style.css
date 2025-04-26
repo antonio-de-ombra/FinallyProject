@@ -385,18 +385,95 @@ nav{
         padding-top:10px;
     }
 
-    .main-content{
-        max-width: 320px;
-    }
 
-    .main-title{
-        padding-top:30px;
-        font-size: 30px;;
-    }
+
+.main-content{
+    max-width: 320px;
+}
+
+.main-title{
+    padding-top:30px;
+    font-size: 30px;;
+}
    
+.main-subtitle{
+    font-size: 15px;
+}
+
+.moving-planet, .cloud, 
+.moving-planet2 {
+    display:none;
+}
+
+.title{
+    font-size: 50px;
+    padding-top: 30px;
+}
+
+
+.about-block{
+    flex-direction: column;
+    margin-top: 20px;
+    padding: 0;
+}
+
+
+.aboutcard{
+    order: -1;
+    background-size: contain;
+    padding-top: 20px;
+    width: 326px;
+    height: 296px;
+}
+ 
+.about-card img{
+    width:85%;
+}
+.about-content{
+    width: 75%; 
+    height: 250px;
+    margin-bottom: 20px;
+}
+
+.about-title{
+    font-size: 18px;
+}
+
+
+.skills-card{
+    margin-top: 20px; 
+    margin-bottom: 20px;
+}
+
+.sckills-card p{
+    font-size: 16px;
+    margin-top: 15%;
+    margin-bottom: 20px;
+}
+
+.skills-section{
+    min-height: 60vh;
+}
+
+.siklls-card .botton{
+    position: absolute;
+    bottom: 100px;
+}
+
+
+
+.works-block{
+    flex-direction: column;
+    padding: 20px 0;
+
+}
+
+
+.works-block img{
+    margin: 20px 0;
+    width: 80%;
+}
+
+
 
  }
-
- 
-
- 
