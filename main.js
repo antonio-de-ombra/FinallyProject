@@ -10,10 +10,10 @@ menu.addEventListener('click', function(event){
    }
 });
 
-
 let classLink = '.main-link';
 window.onscroll = function() {
  let h = document.documentElement.clientHeight;
+
  if (window.scrollY >= h*4 ){
    classLink = '.comments-link';
  }
