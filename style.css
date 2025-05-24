@@ -418,7 +418,7 @@ nav{
 }
 
 
-.aboutcard{
+.about-card{
     order: -1;
     background-size: contain;
     padding-top: 20px;
@@ -443,6 +443,7 @@ nav{
 .skills-card{
     margin-top: 20px; 
     margin-bottom: 20px;
+    background-size: contain;
 }
 
 .sckills-card p{
@@ -474,7 +475,22 @@ nav{
     width: 80%;
 }
 
+.comments-block{
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0 auto;
+    padding-top: 50px;
+}
 
+.comment{
+    background-image: url(comment.png);
+}
+
+.comment p{
+    font-size: 15px;
+    max-width:290px;
+}
 
  }
 
@@ -513,7 +529,7 @@ nav{
     justify-content: center;
     align-items: center;
  }
-.nav-link{
+ .mobile-nav-links .nav-link{
     margin-bottom: 30px;
     width: 210px;
     height: 50px;
