@@ -460,14 +460,15 @@ nav{
 .about-card{
     order: -1;
     background-size: contain;
-    padding-top: 40px;
+    padding-top: 10px;
     width: 400px;
     height: 250px;
 
 }
  
 .about-card img{
-    width:85%;
+    width:80px;
+
 }
 .about-content{
     width: 75%; 
@@ -617,14 +618,15 @@ nav{
 .about-card{
     order: -1;
     background-size: contain;
-    padding-top: 40px;
+    padding-top: 20px;
     width: 400px;
     height: 250px;
 
 }
  
 .about-card img{
-    width:85%;
+
+    width:80px;
 }
 .about-content{
     width: 75%; 
