@@ -19,6 +19,11 @@ Section{
 #main{
 
     background-image: url(bgMAIN.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
     
 }
 
@@ -100,6 +105,7 @@ Section{
     align-items: center;
     box-shadow: 5px 5px 0 #000000;
     margin-top: 20px;
+    transition-duration: 0.3s;
     
 }
 
@@ -110,13 +116,37 @@ Section{
     
 }
 
-.button{
 
-    transition-duration: 0.3s;
-    
- }
         
 .button:hover{
+        
+    background: #a0d826;
+        
+}
+
+
+
+.about-button{
+    width: 200px;
+    height: 60px;
+    border-radius: 100px;
+    border: 2px solid #000;
+    background: #BBFF2C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 0 #000000;
+    margin-top: 20px;
+    transition-duration: 0.3s;
+}
+
+
+.about-button a{
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.abiut-button:hover{
         
     background: #a0d826;
         
@@ -144,8 +174,8 @@ Section{
 
 
 @keyframes cloud-move {
-    frome {transform: translatex(0px);}
-    to {transform: translatex(70px);}
+    frome {transform: translateY(0px);}
+    to {transform: translateY(70px);}
 }
 
 
@@ -374,7 +404,8 @@ nav{
     background-color: #BBFF2C;
  }
 
- @media(max-width: 1000px){
+ @media(min-width: 394px) and (max-width: 1000px){
+    
     .nav-links{
         display:none;
     }
@@ -387,14 +418,19 @@ nav{
 
 
 
+
 .main-content{
-    max-width: 320px;
+    max-width: 310px;
+
+    margin-left: 0 ;
 }
 
 .main-title{
     padding-top:30px;
     font-size: 30px;;
-}
+} 
+
+
    
 .main-subtitle{
     font-size: 15px;
@@ -413,17 +449,21 @@ nav{
 
 .about-block{
     flex-direction: column;
-    margin-top: 20px;
-    padding: 0;
+    margin-top: 10px;
+    margin-left: -120px;
+    width:433px;
+    height: 100px;
+
 }
 
 
 .about-card{
     order: -1;
     background-size: contain;
-    padding-top: 20px;
-    width: 326px;
-    height: 296px;
+    padding-top: 40px;
+    width: 400px;
+    height: 250px;
+
 }
  
 .about-card img{
@@ -431,13 +471,15 @@ nav{
 }
 .about-content{
     width: 75%; 
-    height: 250px;
+    height: 300px;
     margin-bottom: 20px;
 }
 
 .about-title{
     font-size: 18px;
 }
+
+
 
 
 .skills-card{
@@ -505,6 +547,155 @@ nav{
 .hide{
     display: none;
 }
+
+@media(max-width: 394px){
+    
+    .nav-links{
+        display:none;
+    }
+
+    .logo{
+        font-size:40px;
+        padding-left:20px;
+        padding-top:10px;
+    }
+
+
+
+
+.main-content{
+    max-width: 310px;
+
+    margin-left: 0 ;
+}
+
+.main-title{
+    padding-top:30px;
+    font-size: 30px;;
+} 
+
+
+   
+.main-subtitle{
+    font-size: 15px;
+}
+
+.moving-planet, .cloud, 
+.moving-planet2 {
+    display:none;
+}
+
+.title{
+    font-size: 50px;
+    padding-top: 30px;
+}
+
+
+.about-block{
+    flex-direction: column;
+    margin-top: 10px;
+    margin-left: -160px;
+    width:300px;
+    height: 100px;
+
+}
+.button{
+    margin-left: -10px;
+}
+
+
+.about-card{
+    order: -1;
+    background-size: contain;
+    padding-top: 40px;
+    width: 400px;
+    height: 250px;
+
+}
+ 
+.about-card img{
+    width:85%;
+}
+.about-content{
+    width: 75%; 
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+.about-title{
+    font-size: 18px;
+}
+
+
+
+
+.skills-card{
+    margin-top: 20px; 
+    margin-bottom: 20px;
+    background-size: contain;
+}
+
+.sckills-card p{
+    font-size: 16px;
+    margin-top: 15%;
+    margin-bottom: 20px;
+}
+
+.skills-section{
+    min-height: 60vh;
+}
+
+.siklls-card .botton{
+    position: absolute;
+    bottom: 100px;
+}
+
+
+
+.works-block{
+    flex-direction: column;
+    padding: 20px 0;
+
+}
+
+
+.works-block img{
+    margin: 20px 0;
+    width: 80%;
+}
+
+.comments-block{
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.comment{
+    background-image: url(comment.png);
+}
+
+.comment p{
+    font-size: 15px;
+    max-width:290px;
+}
+
+ }
+
+ .mobile-button{
+    display: none; 
+    padding-top: 10px;
+    width: 40px;
+    position: absolute;
+    right: 20px
+}
+
+.hide{
+    display: none;
+}
+
+
 
 @media(max-width: 1000px) {
     .mobile-button {
