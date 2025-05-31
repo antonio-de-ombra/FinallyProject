@@ -534,6 +534,16 @@ nav{
     max-width:290px;
 }
 
+.comment-card{
+    background-size: 400px 420px;
+    height: 500px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 400px;
+}
+
  }
 
  .mobile-button{
@@ -595,7 +605,7 @@ nav{
     flex-direction: column;
     margin-top: 10px;
     margin-left: -160px;
-    width:300px;
+    width: 410px;
     height: 100px;
 
 }
@@ -631,7 +641,7 @@ nav{
 
 .skills-card{
     margin-top: 20px; 
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     background-size: contain;
 }
 
@@ -669,7 +679,7 @@ nav{
     align-items: center;
     justify-content: flex-start;
     margin: 0 auto;
-    padding-top: 50px;
+    padding-top: 5px;
 }
 
 .comment{
@@ -679,6 +689,17 @@ nav{
 .comment p{
     font-size: 15px;
     max-width:290px;
+}
+
+
+.comment-card{
+    background-size: 330px 440px;
+    height: 500px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 400px;
 }
 
  }
