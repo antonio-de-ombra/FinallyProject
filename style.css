@@ -625,11 +625,12 @@ nav{
 }
  
 .about-card img{
-width:85px;
+    padding-bottom: 10px;
+    width:70px;
 }
 .about-content{
     width: 75%; 
-    height: 300px;
+    height: 320px;
     margin-bottom: 20px;
 }
 
